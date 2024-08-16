@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Generator</title>
+    <link rel="stylesheet" href="main.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Name Generator</h1>
+        <div class="button-group">
+            <button id="male_name-button" data-category="male">Generate Male Name</button>
+            <button id="female_name-button" data-category="female">Generate Female Name</button>
+            <button id="twilek_male_name_button" data-category="twilek_male">Generate Twi'lek Male Name</button>
+            <button id="twilek_female_name_button" data-category="twilek_female">Generate Twi'lek Female Name</button>
+            <button id="clear_button" class="clear-button">Clear Names</button>
+        </div>
+        <div id="male_name" class="name-display" data-copy="true"></div>
+        <div id="female_name" class="name-display" data-copy="true"></div>
+        <div id="twilek_male_name" class="name-display" data-copy="true"></div>
+        <div id="twilek_female_name" class="name-display" data-copy="true"></div>
+    </div>
+    
+    <script src="app.js"></script>
+    </body>
+</html>
