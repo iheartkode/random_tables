@@ -1,0 +1,1 @@
+A simple HTML/JS/CSS app I made for myself to generate random names for rpg systems.
